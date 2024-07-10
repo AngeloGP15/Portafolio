@@ -20,7 +20,7 @@ h2:after {
     content: '';
     width: 50px;
     height: 3px;
-    background: #8458b3 ;
+    background: #8458b3;
     display: block;
     margin: 15px auto;
     transition: all .2s ease-in-out;
@@ -38,7 +38,7 @@ h3,
 h4,
 h5 {
     font-family: 'Montserrat', sans-serif;
-    color: #8458b3  ;
+    color: #8458b3;
 }
 
 h5 {
@@ -128,12 +128,15 @@ h5 {
 
 .navbar-brand {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    height: 60px;            /* Altura del navbar */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 60px;
+    /* Altura del navbar */
 }
 
-.navbar-fixed-top {     
+.navbar-fixed-top {
     background-color: #8458b3;
 }
 
@@ -329,6 +332,7 @@ span.city {
     position: relative;
     left: 10px;
     -webkit-animation: scrolls 1.3s ease-out infinite;
+    animation: scrolls 1.3s ease-out infinite;
 }
 
 @-webkit-keyframes scrolls {
@@ -625,7 +629,7 @@ div.button-social a:hover {
 .button-group-li:hover .icon-li {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-}   
+}
 
 .button-group-li {
     -webkit-perspective: 200px;
@@ -641,7 +645,7 @@ div.button-social a:hover {
 
 .col-exp {
     margin-top: 2%;
-}                                                                                                                                                                                                                                                                                                                                   
+}
 
 .timeline .timeline-experience {
     position: relative;
@@ -864,11 +868,11 @@ div.button-weblink {
     color: #008080;
 }
 
-#services .rotate:hover {
+/* #services .rotate:hover {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-}
+} */
 
 #services .rotate {
     -webkit-transition-duration: 0.8s;
