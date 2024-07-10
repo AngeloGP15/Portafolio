@@ -317,14 +317,14 @@ span.city {
     opacity: 0.5;
 }
 
-.mouse {
+/* .mouse {
     width: 28px;
     height: 50px;
     border: 2px solid #fff;
     border-radius: 14px;
-}
+} */
 
-.scroll {
+/* .scroll {
     width: 4px;
     height: 4px;
     border-radius: 2px;
@@ -333,51 +333,9 @@ span.city {
     left: 10px;
     -webkit-animation: scrolls 1.3s ease-out infinite;
     animation: scrolls 1.3s ease-out infinite;
-}
+} */
 
-@-webkit-keyframes scrolls {
-    0% {
-        top: 8px;
-        opacity: 0;
-        -webkit-transform: scaleY(1) scaleX(1);
-    }
 
-    5% {
-        top: 8px;
-        opacity: 0.8;
-        -webkit-transform: scaleY(1.2) scaleX(1.2);
-    }
-
-    10% {
-        top: 8px;
-        opacity: 1;
-        -webkit-transform: scaleY(1.6) scaleX(1.6);
-    }
-
-    15% {
-        top: 8px;
-        opacity: 1;
-        -webkit-transform: scaleY(1.2) scaleX(1.2);
-    }
-
-    20% {
-        top: 8px;
-        opacity: 1;
-        -webkit-transform: scaleY(1.2) scaleX(1.2);
-    }
-
-    30% {
-        top: 15px;
-        opacity: 1;
-        -webkit-transform: scaleY(1.2) scaleX(1.2);
-    }
-
-    100% {
-        top: 30px;
-        opacity: 0;
-        -webkit-transform: scaleY(1.2) scaleX(0.8);
-    }
-}
 
 
 /* End Scroll Down Indicator */
